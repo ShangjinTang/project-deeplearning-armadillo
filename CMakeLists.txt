@@ -78,7 +78,7 @@ include(cppcheck)
 file(
   GLOB PROJECT_APP_NAMES
   RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
-  app*)
+  app* course*)
 file(
   GLOB PROJECT_LIB_NAMES
   RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
